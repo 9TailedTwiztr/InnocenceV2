@@ -9,11 +9,19 @@
   </head>
   <body>
     <script src="index.js"></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
   </body>
+    <style>
+      header {text-align: center;}
+      p {text-align: center;}
+    </style>
+    <header> The Innocence Test V2</header>
+    <p> Check off all the times you have been turned on or things that have turned you on. <br> Being turned on is defined by: excite or simulate the interest of someone, especially sexually. </p>
+
     <form class>
-        <div style="width: 100%; display: table;">
-            <div style="display: table-row; height: 100px;">
-                <div style="width: 50%; display: table-cell;">
+        <div class ="text-box" style="width: 100%; display: table;">
+            <div style="display: table-row; height: 100px; padding-left: 25%">
+                <div style="width: 50%; display: table-cell; ">
                   1. <input type="checkbox" id="Box1" name="Box1" />
                   <label> In front of parents</label
                   ><br />
@@ -165,7 +173,7 @@
 				  <label> In crowded areas</label
 				  ><br />
                   </div>
-                <div style="display: table-cell;">
+                <div class ="text-box" style="display: table-cell;">
                     51. <input type="checkbox"/>
                     <label> Looking through a porn ad</label
                     ><br />
@@ -208,7 +216,120 @@
 					64. <input type="checkbox"/>
                     <label> While peeing</label
                     ><br />
+					65. <input type="checkbox"/>
+                    <label> While shouting / screaming in anger</label
+                    ><br />
+					66. <input type="checkbox"/>
+                    <label> While drinking</label
+                    ><br />
+					67. <input type="checkbox"/>
+                    <label> While being tied up/label
+                    ><br />
+					68. <input type="checkbox"/>
+                    <label> While looking in someone's window</label
+                    ><br />	
+					69. <input type="checkbox"/>
+                    <label> ?</label
+                    ><br />
+					70. <input type="checkbox"/>
+                    <label> While checking someone out</label
+                    ><br />
+					71. <input type="checkbox"/>
+                    <label> While reading something</label
+                    ><br />
+					72. <input type="checkbox"/>
+                    <label> While reading a childrens book</label
+                    ><br />
+					73. <input type="checkbox"/>
+                    <label> While looking at celebrities</label
+                    ><br />
+					74. <input type="checkbox"/>
+                    <label> During acts of the devil's tango</label
+                    ><br />
+					75. <input type="checkbox"/>
+                    <label> While being watched</label
+                    ><br />
+					76. <input type="checkbox"/>
+                    <label> While thinking about food</label
+                    ><br />
+					77. <input type="checkbox"/>
+                    <label> While smelling your crush or S/O</label
+                    ><br />
+					78. <input type="checkbox"/>
+                    <label> While smelling something else</label
+                    ><br />
+					79. <input type="checkbox"/>
+                    <label> While eating ice cream</label
+                    ><br />
+					80. <input type="checkbox"/>
+                    <label> Being wanted or needed by someone</label
+                    ><br />
+					81. <input type="checkbox"/>
+                    <label> The roblox oof sound</label
+                    ><br />
+					82. <input type="checkbox"/>
+                    <label> Cuddling or snuggling</label
+                    ><br />
+					83. <input type="checkbox"/>
+                    <label> Kissing / being kissed</label
+                    ><br />
+					84. <input type="checkbox"/>
+                    <label> Hearing your S/O swear</label
+                    ><br />
+					85. <input type="checkbox"/>
+                    <label> Spooning in bed</label
+                    ><br />
+					86. <input type="checkbox"/>
+                    <label> Hearing your S/O say something nice about you</label
+                    ><br />
+					87. <input type="checkbox"/>
+                    <label> Hearing your crush's or S/O's voice</label
+                    ><br />
+					88. <input type="checkbox"/>
+                    <label> Seeing someone wear a hoodie with no or short pants</label
+                    ><br />
+					89. <input type="checkbox"/>
+                    <label> Facial hair</label
+                    ><br />
+					90. <input type="checkbox"/>
+                    <label> Glasses</label
+                    ><br />
+					91. <input type="checkbox"/>
+                    <label> Singing songs with a loved one</label
+                    ><br />
+					92. <input type="checkbox"/>
+                    <label> Hearing a loved one sing</label
+                    ><br />
+					93. <input type="checkbox"/>
+                    <label> Hearing a loved one say your name</label
+                    ><br />
+					94. <input type="checkbox"/>
+                    <label> Cheesy smiling</label
+                    ><br />
+					95. <input type="checkbox"/>
+                    <label> Talking to someone who is confident but not arrogant</label
+                    ><br />
+					96. <input type="checkbox"/>
+                    <label> Hearing humour</label
+                    ><br />
+					97. <input type="checkbox"/>
+                    <label> When a loved one remembers the little things about you</label
+                    ><br />
+					98. <input type="checkbox"/>
+                    <label> Having someone be there for you</label
+                    ><br />
+					99. <input type="checkbox"/>
+                    <label> Seeing someone with a talent</label
+                    ><br />
+					100. <input type="checkbox"/>
+                    <label> Being turned on infront of or near children</label
+                    ><br />
                   </div>
-
-		  
+                  <button onclick="Score()">Calculate my score</button>           
+      <script type="text/JavaScript">
+      function Score() {
+        alert( document.querySelectorAll('input[type="checkbox"]:checked').length);
+      }
+        </script>
+      
 </html>
